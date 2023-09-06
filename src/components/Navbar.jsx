@@ -163,7 +163,8 @@ const Navbar = () => {
             </header>
       <Container className="mb-5 mb-5">
         <Row className="mt-5">
-          <Col lg={6}>
+          <Col lg={6} data-aos="fade-right" data-aos-duration="3000"data-aos-delay="3000"
+>
             <h1 className="text_ffffff fw-normal fs_3xl ff_Konexy_Personal">
               WordPress Development Agency
             </h1>
@@ -183,7 +184,7 @@ const Navbar = () => {
               </p>
             </div>
           </Col>
-          <Col lg={6} className="position-relative">
+          <Col lg={6} className="position-relative"data-aos="fade-left" data-aos-duration="3000"data-aos-delay="3000">
             <img className="w-100 position-relative z-2 rounded-4" src={Vipe} alt="#" />
             <div className='blue_z abs_blue3'></div>
             <div className='blue_zz abs_blue4'></div>

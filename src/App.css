@@ -234,11 +234,12 @@ input {
 /* Featured */
 
 .Box_Three {
+  height: 426px;
   display: flex;
   padding: 60px 38px 38px 38px;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  /* gap: 20px; */
   flex: 1 0 0;
   align-self: stretch;
   border-radius: 16px;

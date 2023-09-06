@@ -19,10 +19,10 @@ const Succes = () => {
     <section className="position-relative mt-5 pt-5">
       <Container className="my-5 py-5">
         <Row className="justify-content-center align-items-center">
-          <Col lg={4}>
+          <Col lg={4}data-aos="zoom-in" data-aos-duration="3000">
             <img className="w-100" src={hlo} alt="#" />
           </Col>
-          <Col lg={8} className="">
+          <Col lg={8}data-aos="zoom-in"data-aos-duration='3000'>
             <h2 className="fs_xsm fw-normal ff_gilroy text_868687 m-0">
               HAVE YOU SEEN OUR MASCOT?
             </h2>

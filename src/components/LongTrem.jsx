@@ -81,10 +81,10 @@ const LongTrem = () => {
       </div>
       <Container className="py-5 my-5">
         <Row className="d-flex align-items-center">
-        <Col lg={6}>
+        <Col lg={6}data-aos="fade-right" data-aos-duration="3000">
             <img className="w-100" src={Popular_man} alt="#" />
         </Col>
-        <Col lg={6}>
+        <Col lg={6}data-aos="fade-left" data-aos-duration="3000">
             <h2 className="ff_Konexy_Personal fw-normal fs-2xl text_000000 mt-lg-0 mt-4"><span className="text_6022EA">Agile WordPress</span> Development Project management	
 	        </h2>
             <p className="opacity ff_Gilroy fs_xsm fw_normal text_000000">Suspendisse consequat egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla in nibh fringilla vulputate in. Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus eget euismod in bibendum turpis. </p>
@@ -96,12 +96,12 @@ const LongTrem = () => {
       <div className="bg_f6f6f6">
         <Container>
             <Row>
-                <Col lg={6} className="py-5 my-5">
+                <Col lg={6} className="py-5 my-5"data-aos="fade-right" data-aos-duration="3000">
                   <h2 className="ff_Konexy_Personal fw-normal fs_2xl text_000000">Team Full of Stars</h2>
                   <p className="ff_Gilroy fw-normal fs_xsm text_000000">Suspendisse consequat egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla in nibh fringilla vulputate in. Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus eget euismod in bibendum turpis. </p>
                   <button className="Button_LG">Explore</button>
                 </Col>
-                <Col lg={6} className="position-relative">
+                <Col lg={6} className="position-relative"data-aos="fade-left" data-aos-duration="3000">
                   <img className="w-100 abs_smile" src={Three_smile} alt="#" />
                  </Col>
             </Row>
