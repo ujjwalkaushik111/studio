@@ -44,10 +44,10 @@ const VipeStudio = () => {
                 </Col>
                 <Col lg={4} className='mt-5'>
                     <h2 className='ff_Gilroy fw-bold fs_md text_ffffff mb-4'>20-m free consultation that will help us identifyif  you need</h2>
-                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span><img src={r_blue} alt="#" /></span>Technical Description & Discovery</p>
-                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span><img src={r_blue} alt="#" /></span>Custom WordPress Development</p>
-                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span><img src={r_blue} alt="#" /></span>Support & Maintenance</p>
-                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span><img src={r_blue} alt="#" /></span>Other WordPress Service	</p>
+                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span className='pe-2'><img src={r_blue} alt="#" /></span>Technical Description & Discovery</p>
+                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span className='pe-2'><img src={r_blue} alt="#" /></span>Custom WordPress Development</p>
+                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span className='pe-2'><img src={r_blue} alt="#" /></span>Support & Maintenance</p>
+                    <p className='fs_xsm fw-normal text_ffffff ff_Gilroy'><span className='pe-2'><img src={r_blue} alt="#" /></span>Other WordPress Service	</p>
                 </Col>
                 <Col lg={4} className='position-relative'>
                     <img className='w-100 ' src={Smile_girl} alt="#" />
