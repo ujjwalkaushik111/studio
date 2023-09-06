@@ -5,9 +5,10 @@ import frame1 from "../assets/img/svg/Yahoo.svg";
 import frame2 from "../assets/img/svg/yahoo_f.svg";
 import frame3 from "../assets/img/svg/Trending.svg";
 import frame4 from "../assets/img/svg/yahoo_L.svg";
-import box1 from "../assets/img/png/Box1.png";
-import box2 from "../assets/img/png/Box2.png";
-import box3 from "../assets/img/png/Box3.png";
+// import box1 from "../assets/img/png/Box1.png";
+// import box2 from "../assets/img/png/Box2.png";
+// import box3 from "../assets/img/png/Box3.png";
+import { ujjwal } from "./MapData";
 
 const Featured = () => {
   // slick-sliderstart
@@ -84,30 +85,20 @@ const Featured = () => {
         <div className="py-5">
           <h2 className="ff_Konexy_Personal text_000000 fw-normal fs_2xl mb-5">Integer et nisl non</h2>
           <Row>
-            <Col lg={4}>
-              <div className="Box_Three mb-3">
-                <img src={box1} alt="#" />
-                <h2 className="ff_Inter fw-semibold text-center fs_md text_000000">Enterprise WordPress Solutions	</h2>
-                <p className="ff_ Gilroy fw-normal fs_xsm text_000000 opacity text-center">Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis diam montes, turpis commodo elit.</p>
-                <p className="fs_xsm opacity fw-semibold text_6022EA text-center">Learn More</p>
-              </div>
-            </Col>
-            <Col lg={4}>
-              <div className="Box_Three mb-3">
-                <img src={box2} alt="#" />
-                <h2 className="ff_Inter fw-semibold text-center fs_md text_000000">Small to Mid Size Business Development	</h2>	
-                <p  className="ff_ Gilroy fw-normal fs_xsm text_000000 opacity text-center">Et nunc fermentum id amet tempus, elementum. Eget ac ultrices tortor, mattis amet blandit aenean amet. Massa diam lacus, aliquam neque, cursus.</p>
-                <p  className="fs_xsm opacity fw-semibold text_6022EA text-center">Learn More</p>
-              </div>
-            </Col>
-            <Col lg={4}>
-              <div className="Box_Three mb-3">
-                <img className="pt-2" src={box3} alt="#" />
-                <h2 className="ff_Inter fw-semibold text-center fs_md text_000000 my-3">Support & Maintenance	</h2>
-                <p  className="ff_ Gilroy fw-normal fs_xsm text_000000 opacity text-center">Ac donec ipsum fringilla tortor, consectetur etiam sociis amet quis. Viverra volutpat pretium non in fusce tellus sed urna. Pharetra ullamcorper et donec aliquam.</p>
-                <p  className="fs_xsm opacity fw-semibold text_6022EA text-center">Learn More</p>
-              </div>
-            </Col>
+            {/* Map three in one card */}
+            {ujjwal.map((data)=>{
+              return(
+                <Col key={data.id} lg={4} data-aos="flip-down"data-aos-duration="3000">
+                <div className="Box_Three mb-3">
+                  <img src={data.img} alt="#" />
+                  <h2 className="ff_Inter fw-semibold text-center fs_md text_000000 mb-3 mt-4 pt-3">{data.hadding}	</h2>
+                  <p className="ff_ Gilroy fw-normal fs_xsm text_000000 opacity text-center mb-3 pb-1">{data.paragraph}</p>
+                  <p className="fs_xsm opacity fw-semibold text_6022EA text-center">{data.button}</p>
+                </div>
+              </Col>
+              )
+            })}
+           
           </Row>
         </div>
         </Container>
