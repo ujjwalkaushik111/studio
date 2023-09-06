@@ -115,7 +115,7 @@ h1::after {
 
 .links_nav {
   color: var(--white, #FFF);
-  font-family: Gilroy;
+  font-family: Gilroy !important;
   font-size: 16px;
   font-weight: 400;
 }
@@ -488,7 +488,7 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 4;
     transition: all 500ms linear;
   }
 
