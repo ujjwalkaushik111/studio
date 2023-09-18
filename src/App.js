@@ -32,7 +32,7 @@ function App() {
  
    //  preloader-end
   return (
-  <>
+  < div className='overflow-hidden'>
   {loading && <Preloader/>}
    <Navbar/>
    <Featured/>
@@ -40,7 +40,7 @@ function App() {
    <LongTrem/>
    <Succes/>
    <Topbutton/>
-  </>
+  </div>
   );
 }
 

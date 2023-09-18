@@ -5,9 +5,6 @@ import frame1 from "../assets/img/svg/Yahoo.svg";
 import frame2 from "../assets/img/svg/yahoo_f.svg";
 import frame3 from "../assets/img/svg/Trending.svg";
 import frame4 from "../assets/img/svg/yahoo_L.svg";
-// import box1 from "../assets/img/png/Box1.png";
-// import box2 from "../assets/img/png/Box2.png";
-// import box3 from "../assets/img/png/Box3.png";
 import { ujjwal } from "./MapData";
 
 const Featured = () => {
@@ -85,7 +82,7 @@ const Featured = () => {
         <div className="py-5">
           <h2 className="ff_Konexy_Personal text_000000 fw-normal fs_2xl mb-5">Integer et nisl non</h2>
           <Row>
-            {/* Map three in one card */}
+            {/* MapData three in one card */}
             {ujjwal.map((data)=>{
               return(
                 <Col key={data.id} lg={4} data-aos="flip-down"data-aos-duration="3000">
